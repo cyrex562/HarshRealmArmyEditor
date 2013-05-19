@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.harshrealmarmyeditor"
+    package="com.fcl.harshrealm.armyeditor"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.harshrealmarmyeditor.MainActivity"
+            android:name="com.fcl.harshrealm.armyeditor.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +23,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.harshrealmarmyeditor.SettingsActivity"
+            android:name="com.fcl.harshrealm.armyeditor.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
         <service
-            android:name="com.example.harshrealmarmyeditor.model.DataModelService"
+            android:name="com.fcl.harshrealm.armyeditor.service.Service"
             android:label="@string/data_model_service_name"
             >"
         </service>
